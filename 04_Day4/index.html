@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+    </style>
+</head>
+
+<body>
+    <h3>Forms</h3>
+    <form method="get" action="./welcome.html">
+        <label for="fn">First Name</label>
+        <input type="text" name="" id="fn" value="" size="30" maxlength="2" autofocus autocomplete="on">
+        <br><br>
+        <label for="ln">Last Name</label>
+        <input type="text" name="" id="ln" value="John" disabled>
+        <br><br>
+
+        <label for="ps">Password</label>
+        <input type="password" name="" id="">
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="" id="email" placeholder="example@gmail.com" required>
+        <br><br>
+
+        <label for="sc">Select Country</label>
+        <select name="sc" id="sc">
+            <option value="pakistan">Pakistan</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="uae">UAE</option>
+            <option value="saudia">Saudia</option>
+        </select>
+        <br><br>
+
+        <textarea name="" id="" rows="10" cols="30">
+
+        </textarea>
+        <br><br>
+
+        <input list="countries">
+        <datalist id="countries">
+            <option value="Pakistan"></option>
+            <option value="Poland"></option>
+            <option value="India"></option>
+            <option value="USA"></option>
+            <option value="UK"></option>
+            <option value="UAE"></option>
+            <option value="Saudia"></option>
+        </datalist>
+
+        <br><br>
+
+        <label for="">Please Select Your Favourite Language</label><br>
+
+        <input type="radio" name="languages" id="html">
+        <label for="html">HTML</label> <br>
+        <input type="radio" name="languages" id="css">
+        <label for="css">CSS</label> <br>
+        <input type="radio" name="languages" id="js">
+        <label for="js">JavaScript</label> <br>
+
+        <br><br>
+        <label for="">Please Select Vehicles</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+        <br><br>
+        <input type="date" name="date" id="">
+        <br><br>
+        <label for="country_code">Country code:</label>
+        <input type="text" id="country_code" name="country_code" pattern="[0-9]{3}" title="Three letter country code">
+        <input type="submit" value="Submit">
+
+        <br><br>
+
+
+
+    </form>
+</body>
+
+</html>
