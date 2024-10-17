@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(165, 155, 249);
+}
+
+h2 {
+    color: brown;
+}
+.center{
+    text-align: center;
+}
+.justify{
+    /* line-height: 25px; */
+    text-indent: 20px;
+    text-align:left;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+
+}
+.anchor{
+    color: orange;
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: none;
+    text-shadow: 5px 2px 2px black;
+}
+.anchor:hover{
+    /* text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-style:wavy;
+    text-decoration-thickness: 20px; */
+    /* text-decoration: underline dashed white 5px; */
+    /* text-transform: uppercase; */
+    text-shadow: 2px 2px 20px white;
+    
+
+
+}
+
