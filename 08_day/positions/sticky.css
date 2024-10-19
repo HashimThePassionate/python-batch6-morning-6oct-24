@@ -1,0 +1,15 @@
+.sticky-wrapper{
+    height: 50px;
+}
+.sticky {
+    position: sticky;
+    top: 5px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.content {
+    height: 2000px; /* Added height to enable scrolling */
+    padding: 20px;
+}

@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.responsive-text {
+    padding: 20px;
+}
+
+.responsive-text h1 {
+    font-size: 10vw; /* Font size is 10% of viewport width */
+    margin: 0;
+}
+
+.responsive-text p {
+    font-size: 2.5vw; /* Font size is 2.5% of viewport width */
+}

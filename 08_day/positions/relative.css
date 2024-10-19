@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: salmon;
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+.relative{
+    position: absolute;
+    top :50px;
+    right: 120px;
+    background-color: #2da55d;
+    padding: 30px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

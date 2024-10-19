@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.nav{
+    font-size: 20px;
+}
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.nav li {
+    margin-right: 2em;
+}
+.nav a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #333;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}

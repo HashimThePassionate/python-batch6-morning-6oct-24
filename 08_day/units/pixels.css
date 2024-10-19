@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+}
+
+.card h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+}

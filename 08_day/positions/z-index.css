@@ -1,0 +1,29 @@
+.box {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+}
+
+.box1 {
+    background-color: red;
+    top: 50px;
+    left: 50px;
+    z-index: 10;
+}
+
+.box2 {
+    background-color: green;
+    top: 100px;
+    left: 100px;
+    z-index: 4;
+}
+
+.box3 {
+    background-color: blue;
+    top: 150px;
+    left: 150px;
+    z-index: 3;
+}
