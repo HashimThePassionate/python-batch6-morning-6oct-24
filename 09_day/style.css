@@ -1,0 +1,95 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: #7e22ce; /* Purple background color */
+    color: #fff;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-logo .material-icons {
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f1f1f1;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search input {
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    width: 200px;
+}
+
+.nav-search button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #5b21b6;
+    color: #fff;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    outline: none;
+    font-size: 0.9em;
+}
+
+.nav-search button:hover {
+    background-color: #4c1d95;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-icons .material-icons {
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.nav-icons .material-icons:hover {
+    color: #e0e0e0;
+}
